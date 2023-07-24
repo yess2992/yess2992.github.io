@@ -65,19 +65,22 @@
       <!-- header top section end -->
       <!-- header section start -->
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <!-- Agregar el botón de hamburguesa -->
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-       <div class="collapse navbar-collapse d-flex justify-content-center" id="navbarNavAltMarkup">
-      <div class="navbar-nav"> <!-- Agregamos la clase ml-auto aquí -->
-        <a class="nav-item nav-link mx-auto" href="index.html">Inicio</a>
-        <!-- <a class="nav-item nav-link" href="services.html">SERVICES</a> -->
-        <a class="nav-item nav-link mx-auto" href="product.html">Producto</a>
-        <a class="nav-item nav-link mx-auto" href="about.html">Sobre mí</a>
-        <!-- <a class="nav-item nav-link" href="contact.html">CONTACT US</a> -->
-      </div>
-</div>
+
+        <!-- Agregar el contenedor del menú -->
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <!-- Agregamos la clase mx-auto para centrar los enlaces en la versión móvil -->
+            <a class="nav-item nav-link mx-auto" href="index.html">Inicio</a>
+            <a class="nav-item nav-link mx-auto" href="product.html">Producto</a>
+            <a class="nav-item nav-link mx-auto" href="about.html">Sobre mí</a>
+          </div>
+        </div>
       </nav>
+
       <!-- header section end -->
       <!--discount section start -->
       <div class="about_section layout_padding">
@@ -104,7 +107,7 @@
       <div class="client_section layout_padding">
         <h1 class="client_taital">Qué dice mi cliente...</h1>
         <div class="container">
-          <div id="main_slider" class="carousel slide" data-ride="carousel">
+          <div id="main_slider" class="carousel slide" data-ride="carousel" data-interval="false">
             <div class="carousel-inner">
               <div class="carousel-item active">
                 <div class="row">
@@ -142,6 +145,7 @@
                   </div>
                 </div>
               </div>
+              
               <div class="carousel-item">
                 <div class="row">
                   <div class="col-md-6">
@@ -213,13 +217,13 @@
    <script src="js/owl.carousel.js"></script>
    <script src="https:cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
    <script>
-     $('#myCarousel').carousel({
+     $('#main_slider').carousel({
             interval: false
         });
 
         //scroll slides on swipe for touch enabled devices
 
-        $("#myCarousel").on("touchstart", function(event){
+        $("#main_slider").on("touchstart", function(event){
 
             var yClick = event.originalEvent.touches[0].pageY;
             $(this).one("touchmove", function(event){

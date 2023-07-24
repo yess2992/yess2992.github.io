@@ -40,6 +40,15 @@ html {
      scroll-behavior: smooth;
 }
 
+/* Estilos para dispositivos móviles con ancho máximo de 767px */
+@media (max-width: 767px) {
+  /* Agrega aquí los estilos específicos para dispositivos móviles */
+  .client_taital {
+    font-size: 24px;
+  }
+  /* ... Otros estilos para dispositivos móviles ... */
+}
+
 body {
      color: #666666;
      font-size: 14px;
@@ -268,6 +277,11 @@ button {
      padding-left: 20px;
 }
 
+  /* Estilos personalizados para el icono de hamburguesa */
+  .navbar-toggler-icon {
+    background-color: #e0a526;
+    border-radius: 10px;
+  }
 .navbar-expand-lg .navbar-nav {
     -ms-flex-direction: row;
     flex-direction: row;
