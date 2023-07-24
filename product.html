@@ -1,247 +1,353 @@
 <!DOCTYPE html>
 <html lang="en">
-   <head>
-      <!-- basic -->
-      <meta charset="utf-8">
-      <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <!-- mobile metas -->
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-      <meta name="viewport" content="initial-scale=1, maximum-scale=1">
-      <!-- site metas -->
-      <title>Producto</title>
-      <meta name="keywords" content="">
-      <meta name="description" content="">
-      <meta name="author" content="">
-      <!-- bootstrap css -->
-      <link rel="stylesheet" href="css/bootstrap.min.css">
-      <!-- style css -->
-      <link rel="stylesheet" href="css/style.css">
-      <!-- Responsive-->
-      <link rel="stylesheet" href="css/responsive.css">
-      <!-- fevicon -->
-      <link rel="icon" href="images/fevicon.png" type="image/gif" />
-      <!-- Scrollbar Custom CSS -->
-      <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
-      <!-- Tweaks for older IEs-->
-      <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
-      <!-- owl stylesheets --> 
-      <link rel="stylesheet" href="css/owl.carousel.min.css">
-      <link rel="stylesheet" href="css/owl.theme.default.min.css">
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
-      <link rel="icon" href="images/logo.png" type="image/x-icon">
-   </head>
-   <!-- body -->
-   <body>
-      <!-- header top section start -->
-      <div class="header_top">
-        <div class="container">
-          <div class="row">
-             <div class="col-sm-2">
-              <div class="logo">
+  <head>
+    <!-- basic -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- mobile metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1" />
+    <!-- site metas -->
+    <title>Producto</title>
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!-- style css -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- Responsive-->
+    <link rel="stylesheet" href="css/responsive.css" />
+    <!-- fevicon -->
+    <link rel="icon" href="images/fevicon.png" type="image/gif" />
+    <!-- Scrollbar Custom CSS -->
+    <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css" />
+    <!-- Tweaks for older IEs-->
+    <link
+      rel="stylesheet"
+      href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css"
+    />
+    <!-- owl stylesheets -->
+    <link rel="stylesheet" href="css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="css/owl.theme.default.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css"
+      media="screen"
+    />
+    <link rel="icon" href="images/logo.png" type="image/x-icon" />
+    <link href="https://fonts.cdnfonts.com/css/bariol-bold" rel="stylesheet" />
+  </head>
+  <!-- body -->
+  <body>
+    <!-- header top section start -->
+    <div class="header_top">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-2">
+            <div class="logo">
               <a href="index.html">
-                <img src="images/logo.png" width="600" height="200">
+                <img src="images/logo.png" width="600" height="200" />
               </a>
             </div>
-            </div>
-            <div class="col-sm-5">
-              <div class="contact_main">
-              
+          </div>
+          <div class="col-sm-5">
+            <div class="contact_main"></div>
+          </div>
+
+          <div class="col-sm-5">
+            <div class="contact_main">
+              <div class="contact_left">
+                <div class="call_text">
+                  <a href="#"
+                    ><img src="images/mail-icon.png" /><span
+                      class="call_text_left"
+                      style="font-family: 'Bariol Bold', sans-serif"
+                      >+57 3218414224</span
+                    ></a
+                  >
+                </div>
+              </div>
+              <div class="contact_right">
+                <div class="call_text">
+                  <a href="#"
+                    ><img src="images/map-icon.png" /><span
+                      class="call_text_left"
+                      style="font-family: 'Bariol Bold', sans-serif"
+                      >Manizales, Caldas</span
+                    ></a
+                  >
+                </div>
               </div>
             </div>
-           
-            <div class="col-sm-5">
-              <div class="contact_main">
-                <div class="contact_left">
-                  <div class="call_text"><a href="#"><img src="images/mail-icon.png"><span class="call_text_left">+57 3218414224</span></a></div>
-                </div>
-                <div class="contact_right">
-                  <div class="call_text"><a href="#"><img src="images/map-icon.png"><span class="call_text_left">Manizales, Caldas</span></a></div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- header top section end -->
-      <!-- header section start -->
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <!-- Agregar el botón de hamburguesa -->
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <!-- Agregar el contenedor del menú -->
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav">
-            <!-- Agregamos la clase mx-auto para centrar los enlaces en la versión móvil -->
-            <a class="nav-item nav-link mx-auto" href="index.html">Inicio</a>
-            <a class="nav-item nav-link mx-auto" href="product.html">Producto</a>
-            <a class="nav-item nav-link mx-auto" href="about.html">Sobre mí</a>
-          </div>
-        </div>
-      </nav>
-
-      <!-- header section end -->
-      <!--discount section start -->
-      <div class="about_section layout_padding">
-  <div class="container">
-    <div class="discount_bg">
-      <div class="row">
-        <div class="col-sm-8">
-          <h1 class="member_text" style="font-size: 25px; margin-top: 20px;color: #623412;">
-            "¡Descubre la perfección en cada momento con Arrocitas! Delicioso como snack entre comidas, acompañando tu café o vino favorito, como complemento en ensaladas o incluso como un sabroso topping para tus sopas. Arrocitas es la opción ideal para disfrutar en cualquier ocasión."
-          </h1>
-        </div>
-        <div class="col-sm-4">
-          <div class="image_6" style="margin-top: 30px;">
-            <img src="images/img-6 (2).png" style="width: 100%; max-width: 300px;">
           </div>
         </div>
       </div>
     </div>
-  </div>
-</div>
+    <!-- header top section end -->
+    <!-- header section start -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <!-- Agregar el botón de hamburguesa -->
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-      <!-- discount section end -->
-      <!-- client section start --> 
-      <div class="client_section layout_padding">
-        <h1 class="client_taital">Qué dice mi cliente...</h1>
-        <div class="container">
-          <div id="main_slider" class="carousel slide" data-ride="carousel" data-interval="false">
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <div class="row">
-                  <div class="col-md-6">
-                    <div class="alex_bg">
-                      <h3 class="alex_text">Julian Salazar</h3>
-                      <p class="reader_text">“Es una sensación que no le permite a uno parar de comer y disfrutarse hasta la última borona. Son “adictivas”, por naturaleza.”
-</p>
-                    </div>
-                  </div>
-                  <div class="col-md-6">
-                    <div class="alex_bg">
-                      <h3 class="alex_text">Paola Mesa</h3>
-                      <p class="reader_text">Las Arrocitas son super deliciosas, me encanta el sabor, me encantan lo crocantes, me encanta lo natural, y cuándo uno se come una, no puede parar de comer, son super adictivas.
-</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <div class="row">
-                  <div class="col-md-6">
-                    <div class="alex_bg">
-                      <h3 class="alex_text">Michel Giraldo</h3>
-                      <p class="reader_text">Las Arrocitas son deliciosas. Muy crocantes y adictivas. Uno nunca quiere parar de comer, su sabor y textura muy buenos.
-</p>
-                    </div>
-                  </div>
-                  <div class="col-md-6">
-                    <div class="alex_bg">
-                      <h3 class="alex_text">Laura Buriticá.</h3>
-                      <p class="reader_text">“Son muy sabrosas, tiene algo que lo vuelve a uno adicto, la presentación muy buena, es muy agradable cuando la presentación va acorde con lo que vamos a consumir”
-</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              
-              <div class="carousel-item">
-                <div class="row">
-                  <div class="col-md-6">
-                    <div class="alex_bg">
-                      <h3 class="alex_text">Daniel Cardona</h3>
-                      <p class="reader_text">Es realmente agradable cuando la apariencia del producto corresponde perfectamente con la satisfacción de su sabor.</p>
-                    </div>
-                  </div>
-                  <div class="col-md-6">
-                    <div class="alex_bg">
-                      <h3 class="alex_text">Tatiana Gutiérrez</h3>
-                      <p class="reader_text">Disfrutar de un producto que se ve tan bien como sabe es un placer inigualable.</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <a class="carousel-control-prev" href="#main_slider" role="button" data-slide="prev">
-              <i class="fa fa-long-arrow-left"></i>
-            </a>
-            <a class="carousel-control-next" href="#main_slider" role="button" data-slide="next">
-              <i class="fa fa-long-arrow-right"></i>
-            </a>
-          </div>
+      <!-- Agregar el contenedor del menú -->
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <!-- Agregamos la clase mx-auto para centrar los enlaces en la versión móvil -->
+          <a
+            class="nav-item nav-link mx-auto"
+            style="font-family: 'Bariol Bold', sans-serif"
+            href="index.html"
+            >Inicio</a
+          >
+          <a
+            class="nav-item nav-link mx-auto"
+            style="font-family: 'Bariol Bold', sans-serif"
+            href="product.html"
+            >Producto</a
+          >
+          <a
+            class="nav-item nav-link mx-auto"
+            style="font-family: 'Bariol Bold', sans-serif"
+            href="about.html"
+            >Sobre mí</a
+          >
         </div>
       </div>
-      <!-- client section end -->
-      <!-- join us section start -->
-      <div class="join_section margin_top_0">
-        <div class="container">
+    </nav>
+
+    <!-- header section end -->
+    <!--discount section start -->
+    <div class="about_section layout_padding">
+      <div class="container">
+        <div class="discount_bg">
           <div class="row">
-            <div class="col-md-6">
-              
+            <div class="col-sm-8">
+              <h1
+                class="member_text"
+                style="
+                  font-size: 25px;
+                  margin-top: 50px;
+                  color: #623412;
+                  font-family: 'Bariol Bold', sans-serif;
+                "
+              >
+                "¡Descubre la perfección en cada momento con Arrocitas!
+                Delicioso como snack entre comidas, acompañando tu café o vino
+                favorito, como complemento en ensaladas o incluso como un
+                sabroso topping para tus sopas. Arrocitas es la opción ideal
+                para disfrutar en cualquier ocasión."
+              </h1>
+            </div>
+            <div class="col-sm-4">
+              <div class="image_6" style="margin-top: 30px">
+                <img
+                  src="images/img-6 (2).png"
+                  style="width: 100%; max-width: 300px"
+                />
+              </div>
             </div>
           </div>
         </div>
       </div>
-      <!-- join us section end -->
-      <!-- footer section start -->
-      <div class="footer_section layout_padding">
-        <div class="container">
-          <div class="social_icon">
-            <ul>
-              <li><a href="https://web.facebook.com/arrocitasglutenfree?mibextid=ZbWKwL&_rdc=1&_rdr" target="_blank"><img src="images/fb-icon.png"></a></li>
-              <li><a href="https://www.instagram.com/arrocitas.glutenfree/" target="_blank"><img src="images/instagram-icon.png"></a></li>
-            </ul>
+    </div>
+
+    <!-- discount section end -->
+    <!-- client section start -->
+    <div class="client_section layout_padding">
+      <h1 class="client_taital" style="font-family: 'Bariol Bold', sans-serif">
+        Qué dice mi cliente...
+      </h1>
+      <div class="container">
+        <div
+          id="main_slider"
+          class="carousel slide"
+          data-ride="carousel"
+          data-interval="false"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="alex_bg">
+                    <h3 class="alex_text">Julian Salazar</h3>
+                    <p class="reader_text">
+                      “Es una sensación que no le permite a uno parar de comer y
+                      disfrutarse hasta la última borona. Son “adictivas”, por
+                      naturaleza.”
+                    </p>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="alex_bg">
+                    <h3 class="alex_text">Paola Mesa</h3>
+                    <p class="reader_text">
+                      Las Arrocitas son super deliciosas, me encanta el sabor,
+                      me encantan lo crocantes, me encanta lo natural, y cuándo
+                      uno se come una, no puede parar de comer, son super
+                      adictivas.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="alex_bg">
+                    <h3 class="alex_text">Michel Giraldo</h3>
+                    <p class="reader_text">
+                      Las Arrocitas son deliciosas. Muy crocantes y adictivas.
+                      Uno nunca quiere parar de comer, su sabor y textura muy
+                      buenos.
+                    </p>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="alex_bg">
+                    <h3 class="alex_text">Laura Buriticá.</h3>
+                    <p class="reader_text">
+                      “Son muy sabrosas, tiene algo que lo vuelve a uno adicto,
+                      la presentación muy buena, es muy agradable cuando la
+                      presentación va acorde con lo que vamos a consumir”
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="alex_bg">
+                    <h3 class="alex_text">Daniel Cardona</h3>
+                    <p class="reader_text">
+                      Es realmente agradable cuando la apariencia del producto
+                      corresponde perfectamente con la satisfacción de su sabor.
+                    </p>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="alex_bg">
+                    <h3 class="alex_text">Tatiana Gutiérrez</h3>
+                    <p class="reader_text">
+                      Disfrutar de un producto que se ve tan bien como sabe es
+                      un placer inigualable.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
-          <p class="lorem_ipsum_text">Delicioso snack horneado glutenfree</p>
+          <a
+            class="carousel-control-prev"
+            href="#main_slider"
+            role="button"
+            data-slide="prev"
+          >
+            <i class="fa fa-long-arrow-left"></i>
+          </a>
+          <a
+            class="carousel-control-next"
+            href="#main_slider"
+            role="button"
+            data-slide="next"
+          >
+            <i class="fa fa-long-arrow-right"></i>
+          </a>
         </div>
       </div>
-      <!-- footer section end -->
-      <!-- copyright section start -->
-      <div class="copyright_section">
-        <div class="container">
-          <p class="copyright_text">Copyright 2023 All Right Reserved By Arrocitas</p>
+    </div>
+    <!-- client section end -->
+    <!-- join us section start -->
+    <div class="join_section margin_top_0">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6"></div>
         </div>
       </div>
-      <!-- copyright section end -->
-   <!-- Javascript files-->
-   <script src="js/jquery.min.js"></script>
-   <script src="js/popper.min.js"></script>
-   <script src="js/bootstrap.bundle.min.js"></script>
-   <script src="js/jquery-3.0.0.min.js"></script>
-   <script src="js/plugin.js"></script>
-   <!-- sidebar -->
-   <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
-   <script src="js/custom.js"></script>
-   <!-- javascript --> 
-   <script src="js/owl.carousel.js"></script>
-   <script src="https:cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
-   <script>
-     $('#main_slider').carousel({
-            interval: false
+    </div>
+    <!-- join us section end -->
+    <!-- footer section start -->
+    <div class="footer_section layout_padding">
+      <div class="container">
+        <div class="social_icon">
+          <ul>
+            <li>
+              <a
+                href="https://web.facebook.com/arrocitasglutenfree?mibextid=ZbWKwL&_rdc=1&_rdr"
+                target="_blank"
+                ><img src="images/fb-icon.png"
+              /></a>
+            </li>
+            <li>
+              <a
+                href="https://www.instagram.com/arrocitas.glutenfree/"
+                target="_blank"
+                ><img src="images/instagram-icon.png"
+              /></a>
+            </li>
+          </ul>
+        </div>
+        <p class="lorem_ipsum_text">Delicioso snack horneado glutenfree</p>
+      </div>
+    </div>
+    <!-- footer section end -->
+    <!-- copyright section start -->
+    <div class="copyright_section">
+      <div class="container">
+        <p
+          class="copyright_text"
+          style="font-family: 'Bariol Bold', sans-serif"
+        >
+          Copyright 2023 All Right Reserved By Arrocitas
+        </p>
+      </div>
+    </div>
+    <!-- copyright section end -->
+    <!-- Javascript files-->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery-3.0.0.min.js"></script>
+    <script src="js/plugin.js"></script>
+    <!-- sidebar -->
+    <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script src="js/custom.js"></script>
+    <!-- javascript -->
+    <script src="js/owl.carousel.js"></script>
+    <script src="https:cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
+    <script>
+      $("#main_slider").carousel({
+        interval: false,
+      });
+
+      //scroll slides on swipe for touch enabled devices
+
+      $("#main_slider").on("touchstart", function (event) {
+        var yClick = event.originalEvent.touches[0].pageY;
+        $(this).one("touchmove", function (event) {
+          var yMove = event.originalEvent.touches[0].pageY;
+          if (Math.floor(yClick - yMove) > 1) {
+            $(".carousel").carousel("next");
+          } else if (Math.floor(yClick - yMove) < -1) {
+            $(".carousel").carousel("prev");
+          }
         });
-
-        //scroll slides on swipe for touch enabled devices
-
-        $("#main_slider").on("touchstart", function(event){
-
-            var yClick = event.originalEvent.touches[0].pageY;
-            $(this).one("touchmove", function(event){
-
-                var yMove = event.originalEvent.touches[0].pageY;
-                if( Math.floor(yClick - yMove) > 1 ){
-                    $(".carousel").carousel('next');
-                }
-                else if( Math.floor(yClick - yMove) < -1 ){
-                    $(".carousel").carousel('prev');
-                }
-            });
-            $(".carousel").on("touchend", function(){
-                $(this).off("touchmove");
-            });
+        $(".carousel").on("touchend", function () {
+          $(this).off("touchmove");
         });
-   </script>
-   </body>
-   </html>
-
-  
+      });
+    </script>
+  </body>
+</html>
