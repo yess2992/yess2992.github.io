@@ -38,6 +38,7 @@ html {
   scroll-behavior: smooth;
 }
 
+
 /* Estilos para dispositivos móviles con ancho máximo de 767px */
 @media (max-width: 767px) {
   /* Agrega aquí los estilos específicos para dispositivos móviles */
