@@ -1,306 +1,516 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <!-- Basic meta tags -->
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, maximum-scale=1"
-    />
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- SEO Optimization -->
+    <title>Arrocitas | Snacks Saludables, Crujientes y Libres de Gluten</title>
+    <meta name="description" content="Descubre Arrocitas, el delicioso snack horneado de arroz, 100% libre de gluten. Sabores Tradicional, Integral y Cookies & Cream. Hecho con amor en Manizales, Colombia.">
+    <meta name="keywords" content="arrocitas, snacks saludables, sin gluten, gluten free, snacks horneados, arroz inflado, snacks colombia, manizales">
+    <meta name="author" content="Arrocitas">
+    
+    <!-- Open Graph (Facebook / WhatsApp sharing) -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Arrocitas | Snacks Saludables, Crujientes y Libres de Gluten">
+    <meta property="og:description" content="Deliciosos snacks horneados de arroz hechos con amor en Manizales. Pruebalos en sabor Tradicional, Integral y Cookies & Cream.">
+    <meta property="og:image" content="assets/images/hero-snack.png">
+    <meta property="og:url" content="https://arrocitas.top/">
 
-    <!-- Site metas -->
-    <title>Arrocitas</title>
-    <meta name="keywords" content="" />
-    <meta name="description" content="" />
-    <meta name="author" content="" />
+    <!-- Favicon -->
+    <link rel="icon" href="assets/images/logo.png" type="image/x-icon">
+    
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
 
-    <!-- Stylesheets -->
-    <link rel="stylesheet" href="css/bootstrap.min.css" />
-    <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/responsive.css" />
-    <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css" />
-    <link rel="stylesheet" href="css/owl.carousel.min.css" />
-    <link rel="stylesheet" href="css/owl.theme.default.min.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css"
-      media="screen"
-    />
-    <link href="https://fonts.cdnfonts.com/css/bariol-bold" rel="stylesheet" />
-    <link rel="icon" href="images/logo.png" type="image/x-icon" />
-  </head>
+    <!-- Floating WhatsApp Button -->
+    <a href="https://api.whatsapp.com/send?phone=573218414224&text=%C2%A1Hola%20Arrocitas%21%20%F0%9F%8C%BE%20Quiero%20saber%20m%C3%A1s%20sobre%20sus%20snacks." 
+       class="whatsapp-float" 
+       target="_blank" 
+       rel="noopener noreferrer" 
+       aria-label="Contactar por WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
 
-  <body>
-    <!-- Header top section -->
-    <div class="header_top">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-2">
-            <div class="logo">
-              <a href="index.html">
-                <img src="images/logo.png" width="600" height="200" />
-              </a>
-            </div>
-          </div>
-          <div class="col-sm-5"></div>
-          <div class="col-sm-5">
-            <div class="contact_main">
-              <!-- WhatsApp -->
-              <div class="contact_left">
-                <div class="call_text">
-                  <a
-                    href="https://wa.me/573218414224?text=Quiero%20Arrocitas"
-                    target="_blank"
-                  >
-                    <img src="images/mail-icon.png" />
-                    <span
-                      class="call_text_left"
-                      style="font-family: 'Bariol Bold', sans-serif"
-                      >+57 3218414224</span
-                    >
-                  </a>
-                </div>
-              </div>
-              <!-- Dirección -->
-              <div class="contact_right">
-                <div class="call_text">
-                  <a href="#">
-                    <img src="images/map-icon.png" />
-                    <span
-                      class="call_text_left"
-                      style="font-family: 'Bariol Bold', sans-serif"
-                      >Manizales, Caldas</span
-                    >
-                  </a>
-                </div>
-              </div>
-            </div>
-            <!-- /.contact_main -->
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- End Header top section -->
-
-    <!-- Header navigation -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarNavAltMarkup"
-        aria-controls="navbarNavAltMarkup"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav">
-          <a
-            class="nav-item nav-link mx-auto"
-            style="font-family: 'Bariol Bold', sans-serif"
-            href="index.html"
-            >Inicio</a
-          >
-          <a
-            class="nav-item nav-link mx-auto"
-            style="font-family: 'Bariol Bold', sans-serif"
-            href="product.html"
-            >Producto</a
-          >
-          <a
-            class="nav-item nav-link mx-auto"
-            style="font-family: 'Bariol Bold', sans-serif"
-            href="about.html"
-            >Sobre mí</a
-          >
-        </div>
-      </div>
+    <!-- Navigation Header -->
+    <nav class="navbar" id="navbar">
+        <a href="#inicio" class="nav-brand">
+            <img src="assets/images/logo.png" alt="Logo Arrocitas" id="navLogo">
+            <span>Saludables y Crocanticas</span>
+        </a>
+        
+        <button class="nav-toggle" id="navToggle" aria-label="Abrir menú">
+            <i class="fa fa-bars"></i>
+        </button>
+        
+        <ul class="nav-menu" id="navMenu">
+            <li><a href="#inicio" class="nav-link">Inicio</a></li>
+            <li><a href="#productos" class="nav-link">Productos</a></li>
+            <li><a href="#sobre-mi" class="nav-link">Sobre Mí</a></li>
+            <li><a href="#testimonios" class="nav-link">Testimonios</a></li>
+            <li><a href="#pedido" class="btn btn-primary" style="padding: 10px 20px; font-size: 0.9rem;">Armar Pedido</a></li>
+        </ul>
     </nav>
-    <!-- End Header navigation -->
 
-    <!-- Banner section -->
-    <div class="banner_section">
-      <section class="slide-wrapper">
+    <!-- Hero Section -->
+    <section class="hero" id="inicio">
         <div class="container">
-          <!-- Main content -->
-          <div class="container">
-            <div class="row">
-              <!-- Left Column: Image -->
-              <div class="col-md-6">
-                <div class="image_1">
-                  <img
-                    src="images/img-1.png"
-                    style="margin-top: 120px"
-                    alt="Arrocitas"
-                  />
+            <div class="hero-grid">
+                <div class="hero-text">
+                    <span class="hero-tag"><i class="fa-solid fa-seedling"></i> 100% Gluten Free & Horneadas</span>
+                    <h1 class="hero-title">El snack saludable y <span>crujiente</span> que te atrapará</h1>
+                    <p class="hero-description">
+                        Deliciosas arrocitas horneadas de arroz para disfrutar sin culpa en cualquier momento. El snack perfecto para acompañar tu café, tus ensaladas o saciar tus antojos sanamente.
+                    </p>
+                    <div class="hero-ctas">
+                        <a href="#pedido" class="btn btn-primary"><i class="fa-solid fa-basket-shopping"></i> Pedir por WhatsApp</a>
+                        <a href="#productos" class="btn btn-secondary">Ver Sabores</a>
+                    </div>
                 </div>
-              </div>
-              <!-- Right Column: Text and Button -->
-              <div class="col-md-6">
-                <h1
-                  class="achive_text"
-                  style="
-                    font-size: 50px;
-                    font-family: 'Bariol Bold', sans-serif;
-                    text-align: center;
-                  "
-                >
-                  ¡Bienvenidos a Arrocitas!
-                </h1>
-                <p
-                  class="best_text"
-                  style="margin-top: 20px; text-align: center"
-                >
-                  ¿Y... si cuidarte fuera también delicioso?
-                </p>
-                <p
-                  class="lorem_text"
-                  style="
-                    font-family: 'Bariol Bold', sans-serif;
-                    font-size: 23px;
-                    color: #e0a526;
-                    text-align: center;
-                  "
-                >
-                  Cada vez más personas buscan cuidarse, sentirse bien y
-                  disfrutar de lo que comen sin culpa. Pero los snacks en el
-                  mercado están llenos de gluten, conservantes, frituras y poco
-                  amor por lo natural. Para quienes tenemos restricciones
-                  alimenticias… Simplemente no hay opciones reales. Arrocitas
-                  nace como una alternativa consciente: Un snack horneado, sin
-                  gluten, sin conservantes ni colorantes. Rico, práctico y hecho
-                  con ingredientes naturales.
-                </p>
-                <div class="appointment_bt text-center">
-                  <a
-                    href="#"
-                    data-toggle="modal"
-                    data-target="#myModal"
-                    style="
-                      border-radius: 15px;
-                      font-family: 'Bariol Bold', sans-serif;
-                    "
-                    >Ver Arrocitas</a
-                  >
+                <div class="hero-image-wrapper">
+                    <div class="hero-blob"></div>
+                    <img src="assets/images/hero-snack.png" alt="Snack de arroz crujiente y saludable" class="hero-img">
                 </div>
-              </div>
             </div>
-          </div>
-          <!-- End Main content -->
         </div>
-      </section>
-    </div>
-    <!-- End Banner section -->
+    </section>
 
-    <!-- Modal for product video -->
-    <div
-      class="modal fade"
-      id="myModal"
-      tabindex="-1"
-      role="dialog"
-      aria-labelledby="exampleModalLabel"
-      aria-hidden="true"
-    >
-      <div class="modal-dialog" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5
-              class="modal-title"
-              id="exampleModalLabel"
-              style="color: #e0a526; font-family: 'Bariol Bold', sans-serif"
-            >
-              Arrocitas "Saludables y Crocanticas"
-            </h5>
-            <button
-              type="button"
-              class="close"
-              data-dismiss="modal"
-              aria-label="Close"
-            >
-              <span aria-hidden="true">&times;</span>
-            </button>
-          </div>
-          <div class="modal-body text-center">
-            <video class="rounded" width="100%" height="auto" controls>
-              <source src="images/Arrocitas.mp4" type="video/mp4" />
-              Tu navegador no soporta el elemento de video.
-            </video>
-          </div>
+    <!-- Features Strip -->
+    <section class="features-strip">
+        <div class="container">
+            <div class="features-grid">
+                <!-- Feature 1 -->
+                <div class="feature-card">
+                    <div class="feature-icon-wrapper">
+                        <i class="fa-solid fa-wheat-custom" style="display:none;"></i> <!-- Fallback -->
+                        <i class="fa-solid fa-ban"></i>
+                    </div>
+                    <div class="feature-info">
+                        <h3>Sin Gluten</h3>
+                        <p>100% apto para celíacos y digestión ligera.</p>
+                    </div>
+                </div>
+                <!-- Feature 2 -->
+                <div class="feature-card">
+                    <div class="feature-icon-wrapper">
+                        <i class="fa-solid fa-fire-burner"></i>
+                    </div>
+                    <div class="feature-info">
+                        <h3>100% Horneado</h3>
+                        <p>Textura crocante perfecta sin aceites añadidos.</p>
+                    </div>
+                </div>
+                <!-- Feature 3 -->
+                <div class="feature-card">
+                    <div class="feature-icon-wrapper">
+                        <i class="fa-solid fa-leaf"></i>
+                    </div>
+                    <div class="feature-info">
+                        <h3>Ingredientes Naturales</h3>
+                        <p>Sin conservantes ni aditivos artificiales.</p>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
-    <!-- End Modal -->
+    </section>
 
-    <!-- Join section -->
-    <div class="join_section margin_top_0">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-6 offset-md-3 text-center">
-            <h1
-              class="member_text"
-              style="font-family: 'Bariol Bold', sans-serif"
-            >
-              ¡Los invito a enamorarse de Arrocitas, porque una vez las prueben,
-              se convertirán en su snack favorito de todos los días!
-            </h1>
-          </div>
+    <!-- Products Section -->
+    <section class="section" id="productos">
+        <div class="container">
+            <div class="section-title-wrapper">
+                <span class="section-subtitle">Nuestras Líneas</span>
+                <h2 class="section-title">Elige tu sabor favorito</h2>
+                <p>Nuestras tres recetas exclusivas están creadas para acompañar todos tus momentos, desde lo más saludable a tu antojo dulce.</p>
+            </div>
+            
+            <div class="products-grid">
+                <!-- Product 1: Tradicional -->
+                <div class="product-card">
+                    <div class="product-img-wrapper">
+                        <span class="product-badge badge-gold">El Clásico</span>
+                        <img src="assets/images/sabor-tradicional.png" alt="Arrocitas Tradicionales" class="product-img">
+                    </div>
+                    <div class="product-content">
+                        <div class="product-meta">
+                            <span class="product-price">$5.500 COP</span>
+                        </div>
+                        <h3 class="product-title">Arrocitas Tradicionales</h3>
+                        <p class="product-desc">El sabor original crujiente que a todos encanta. Ideales para ensaladas, sopas o para comer solas directo de la bolsa como snack de media mañana.</p>
+                        <ul class="product-features-list">
+                            <li>Sal Marina</li>
+                            <li>Horneado</li>
+                            <li>Sin Gluten</li>
+                        </ul>
+                        <a href="#pedido" class="btn btn-secondary" style="width: 100%;">Agregar al pedido</a>
+                    </div>
+                </div>
+
+                <!-- Product 2: Integral -->
+                <div class="product-card">
+                    <div class="product-img-wrapper">
+                        <span class="product-badge badge-olive">Más Fibra</span>
+                        <img src="assets/images/sabor-integral.png" alt="Arrocitas Integrales" class="product-img">
+                    </div>
+                    <div class="product-content">
+                        <div class="product-meta">
+                            <span class="product-price">$6.000 COP</span>
+                        </div>
+                        <h3 class="product-title">Arrocitas Integrales</h3>
+                        <p class="product-desc">Una versión rica en fibra y sumamente nutritiva. El complemento ideal para tu café, té de la tarde o untadas con tu queso crema favorito.</p>
+                        <ul class="product-features-list">
+                            <li>Arroz Integral</li>
+                            <li>Fibra Natural</li>
+                            <li>Bajo en Sodio</li>
+                        </ul>
+                        <a href="#pedido" class="btn btn-secondary" style="width: 100%;">Agregar al pedido</a>
+                    </div>
+                </div>
+
+                <!-- Product 3: Cookies and Cream -->
+                <div class="product-card">
+                    <div class="product-img-wrapper">
+                        <span class="product-badge badge-brown">Tentación Dulce</span>
+                        <img src="assets/images/sabor-cookies.png" alt="Arrocitas Cookies and Cream" class="product-img">
+                    </div>
+                    <div class="product-content">
+                        <div class="product-meta">
+                            <span class="product-price">$6.500 COP</span>
+                        </div>
+                        <h3 class="product-title">Cookies and Cream</h3>
+                        <p class="product-desc">El antojo dulce perfecto que no rompe tu estilo de vida saludable. Deliciosa combinación crujiente de galleta y crema libre de remordimientos.</p>
+                        <ul class="product-features-list">
+                            <li>Crocante</li>
+                            <li>Toque Dulce</li>
+                            <li>Snack Premium</li>
+                        </ul>
+                        <a href="#pedido" class="btn btn-secondary" style="width: 100%;">Agregar al pedido</a>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
-    <!-- End Join section -->
+    </section>
 
-    <!-- Footer section -->
-    <div class="footer_section layout_padding">
-      <div class="container">
-        <div class="social_icon">
-          <ul>
-            <li>
-              <a
-                href="https://web.facebook.com/arrocitasglutenfree?mibextid=ZbWKwL&_rdc=1&_rdr"
-                target="_blank"
-                ><img src="images/fb-icon.png" alt="Facebook"
-              /></a>
-            </li>
-            <li>
-              <a
-                href="https://www.instagram.com/arrocitas.glutenfree/"
-                target="_blank"
-                ><img src="images/instagram-icon.png" alt="Instagram"
-              /></a>
-            </li>
-          </ul>
+    <!-- About Section (Sobre Mí) -->
+    <section class="section" id="sobre-mi" style="background-color: var(--color-bg-alt);">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-img-box">
+                    <img src="assets/images/fundadora.png" alt="Fundadora de Arrocitas" class="about-img">
+                    <div class="about-overlay-badge">
+                        <p>¡Hecho con amor en Manizales! 🇨🇴</p>
+                    </div>
+                </div>
+                <div class="about-text">
+                    <span class="section-subtitle">Sobre Mí</span>
+                    <h2>Nuestra Historia: Una Crocante Aventura</h2>
+                    <p class="about-p">
+                        ¡Hola! Soy una mujer emprendedora apasionada por la comida saludable y deliciosa. Mi historia comienza con el desarrollo de <strong>"Arrocitas"</strong>, un snack horneado y libre de gluten hecho a base de arroz, nacido de la búsqueda personal de opciones más sanas, pero llenas de sabor y textura.
+                    </p>
+                    <p class="about-p">
+                        Hoy cuenta con tres líneas de productos muy queridas por nuestros clientes: el clásico sabor Tradicional, el nutritivo Integral y el irresistible Cookies & Cream para endulzar tus tardes.
+                    </p>
+                    <p class="about-p" style="font-weight: 600; color: var(--color-primary-dark);">
+                        "Mi objetivo es compartir con todos el placer de disfrutar de un snack delicioso, nutritivo y sin gluten que llegue a cada rincón de nuestro país."
+                    </p>
+                    <a href="#pedido" class="btn btn-primary" style="margin-top: 16px;">Apoya lo Local - Arma tu Pedido</a>
+                </div>
+            </div>
         </div>
-        <p class="lorem_ipsum_text">Delicioso snack horneado glutenfree</p>
-      </div>
-    </div>
-    <!-- End Footer section -->
+    </section>
 
-    <!-- Copyright section start -->
-    <div class="copyright_section">
-      <div class="container">
-        <p
-          class="copyright_text"
-          style="font-family: 'Bariol Bold', sans-serif"
-        >
-          Copyright 2023 All Right Reserved By Arrocitas
-        </p>
-      </div>
-    </div>
-    <!-- End Copyright section -->
+    <!-- Testimonials Section -->
+    <section class="section" id="testimonios">
+        <div class="container">
+            <div class="section-title-wrapper">
+                <span class="section-subtitle">Testimonios</span>
+                <h2 class="section-title">Qué dicen mis clientes</h2>
+                <p>Las opiniones reales de quienes ya se enamoraron de la crocancia inigualable de Arrocitas.</p>
+            </div>
 
-    <!-- Javascript files -->
-    <script src="js/jquery.min.js"></script>
-    <script src="js/popper.min.js"></script>
-    <script src="js/bootstrap.bundle.min.js"></script>
-    <script src="js/jquery-3.0.0.min.js"></script>
-    <script src="js/plugin.js"></script>
-    <script src="js/modal.js"></script>
-    <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
-    <script src="js/custom.js"></script>
-    <script src="js/owl.carousel.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
-  </body>
+            <div class="testimonials-slider-container">
+                <button class="slider-btn slider-btn-prev" id="prevTestimonial" aria-label="Testimonio anterior">
+                    <i class="fa fa-chevron-left"></i>
+                </button>
+                
+                <div class="testimonials-slider">
+                    <!-- Testimonial 1 -->
+                    <div class="testimonial-slide active">
+                        <div class="quote-icon">“</div>
+                        <p class="testimonial-text">Es una sensación que no le permite a uno parar de comer y disfrutarse hasta la última borona. Son “adictivas”, por naturaleza.</p>
+                        <div class="testimonial-author">
+                            <div>
+                                <h4 class="author-name">Julian Salazar</h4>
+                                <span class="author-meta">Cliente Fiel</span>
+                            </div>
+                            <div class="stars">
+                                <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Testimonial 2 -->
+                    <div class="testimonial-slide">
+                        <div class="quote-icon">“</div>
+                        <p class="testimonial-text">Las Arrocitas son super deliciosas, me encanta el sabor, me encantan lo crocantes, me encanta lo natural, y cuándo uno se come una, no puede parar de comer, son super adictivas.</p>
+                        <div class="testimonial-author">
+                            <div>
+                                <h4 class="author-name">Paola Mesa</h4>
+                                <span class="author-meta">Cliente Fiel</span>
+                            </div>
+                            <div class="stars">
+                                <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Testimonial 3 -->
+                    <div class="testimonial-slide">
+                        <div class="quote-icon">“</div>
+                        <p class="testimonial-text">Las Arrocitas son deliciosas. Muy crocantes y adictivas. Uno nunca quiere parar de comer, su sabor y textura muy buenos.</p>
+                        <div class="testimonial-author">
+                            <div>
+                                <h4 class="author-name">Michel Giraldo</h4>
+                                <span class="author-meta">Cliente Fiel</span>
+                            </div>
+                            <div class="stars">
+                                <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Testimonial 4 -->
+                    <div class="testimonial-slide">
+                        <div class="quote-icon">“</div>
+                        <p class="testimonial-text">Son muy sabrosas, tiene algo que lo vuelve a uno adicto, la presentación muy buena, es muy agradable cuando la presentación va acorde con lo que vamos a consumir.</p>
+                        <div class="testimonial-author">
+                            <div>
+                                <h4 class="author-name">Laura Buriticá</h4>
+                                <span class="author-meta">Cliente Satisfecho</span>
+                            </div>
+                            <div class="stars">
+                                <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Testimonial 5 -->
+                    <div class="testimonial-slide">
+                        <div class="quote-icon">“</div>
+                        <p class="testimonial-text">Es realmente agradable cuando la apariencia del producto corresponde perfectamente con la satisfacción de su sabor y su crocancia.</p>
+                        <div class="testimonial-author">
+                            <div>
+                                <h4 class="author-name">Daniel Cardona</h4>
+                                <span class="author-meta">Cliente Satisfecho</span>
+                            </div>
+                            <div class="stars">
+                                <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Testimonial 6 -->
+                    <div class="testimonial-slide">
+                        <div class="quote-icon">“</div>
+                        <p class="testimonial-text">Disfrutar de un producto que se ve tan bien como sabe es un placer inigualable. ¡Recomendadísimas para toda ocasión!</p>
+                        <div class="testimonial-author">
+                            <div>
+                                <h4 class="author-name">Tatiana Gutiérrez</h4>
+                                <span class="author-meta">Cliente Satisfecho</span>
+                            </div>
+                            <div class="stars">
+                                <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <button class="slider-btn slider-btn-next" id="nextTestimonial" aria-label="Siguiente testimonio">
+                    <i class="fa fa-chevron-right"></i>
+                </button>
+                
+                <div class="slider-dots" id="sliderDots"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Order Builder Section -->
+    <section class="section order-section" id="pedido">
+        <div class="container">
+            <div class="section-title-wrapper" style="margin-bottom: 40px;">
+                <span class="section-subtitle">¿Antojado?</span>
+                <h2 class="section-title">Arma tu Pedido en Segundos</h2>
+                <p>Elige la cantidad de tus Arrocitas favoritas, introduce tus datos y genera tu pedido directo a nuestro WhatsApp en un solo clic.</p>
+            </div>
+
+            <div class="order-card-wrapper">
+                <div class="order-header">
+                    <h2>Calculador de Pedido</h2>
+                    <p>Envíos rápidos a Manizales y a nivel nacional 🇨🇴</p>
+                </div>
+                
+                <div class="order-body">
+                    <form id="whatsappForm">
+                        <div class="order-list">
+                            <!-- Item 1: Tradicional -->
+                            <div class="order-item" data-id="tradicional">
+                                <div class="order-item-info">
+                                    <h3 class="order-item-title">Arrocitas Tradicionales</h3>
+                                    <span class="order-item-price">$5.500 COP / unidad</span>
+                                </div>
+                                <div class="order-item-controls">
+                                    <button type="button" class="qty-btn qty-minus" aria-label="Disminuir cantidad">-</button>
+                                    <span class="qty-val">0</span>
+                                    <button type="button" class="qty-btn qty-plus" aria-label="Aumentar cantidad">+</button>
+                                </div>
+                            </div>
+                            
+                            <!-- Item 2: Integral -->
+                            <div class="order-item" data-id="integral">
+                                <div class="order-item-info">
+                                    <h3 class="order-item-title">Arrocitas Integrales</h3>
+                                    <span class="order-item-price">$6.000 COP / unidad</span>
+                                </div>
+                                <div class="order-item-controls">
+                                    <button type="button" class="qty-btn qty-minus" aria-label="Disminuir cantidad">-</button>
+                                    <span class="qty-val">0</span>
+                                    <button type="button" class="qty-btn qty-plus" aria-label="Aumentar cantidad">+</button>
+                                </div>
+                            </div>
+                            
+                            <!-- Item 3: Cookies & Cream -->
+                            <div class="order-item" data-id="cookies">
+                                <div class="order-item-info">
+                                    <h3 class="order-item-title">Cookies and Cream</h3>
+                                    <span class="order-item-price">$6.500 COP / unidad</span>
+                                </div>
+                                <div class="order-item-controls">
+                                    <button type="button" class="qty-btn qty-minus" aria-label="Disminuir cantidad">-</button>
+                                    <span class="qty-val">0</span>
+                                    <button type="button" class="qty-btn qty-plus" aria-label="Aumentar cantidad">+</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Summary Block -->
+                        <div class="order-summary">
+                            <div class="summary-row">
+                                <span>Subtotal productos:</span>
+                                <span id="orderSubtotal">$0 COP</span>
+                            </div>
+                            <div class="summary-row">
+                                <span>Costo de envío:</span>
+                                <span>Por acordar (según ciudad)</span>
+                            </div>
+                            <div class="summary-row total">
+                                <span>Total Estimado:</span>
+                                <span id="orderTotal">$0 COP</span>
+                            </div>
+                        </div>
+
+                        <!-- Personal Details Inputs -->
+                        <div class="order-form-group">
+                            <label for="clientName" class="order-label">Nombre Completo *</label>
+                            <input type="text" id="clientName" class="order-input" placeholder="Ej: Paola Mesa" required>
+                        </div>
+
+                        <div class="order-form-group">
+                            <label for="clientAddress" class="order-label">Dirección de Entrega y Ciudad *</label>
+                            <input type="text" id="clientAddress" class="order-input" placeholder="Ej: Calle 45 #23-10, Manizales" required>
+                        </div>
+
+                        <!-- Action Button -->
+                        <div class="order-actions">
+                            <button type="button" id="sendOrderBtn" class="btn btn-whatsapp">
+                                <i class="fab fa-whatsapp" style="font-size: 1.25rem;"></i> Confirmar Pedido en WhatsApp
+                            </button>
+                            <p class="order-warning">* Al hacer clic, se abrirá WhatsApp con el resumen de tu pedido redactado para que nos lo envíes directamente.</p>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <!-- Footer Column 1: Info -->
+                <div class="footer-info">
+                    <a href="#inicio" class="footer-info-logo">
+                        <img src="assets/images/logo.png" alt="Logo Arrocitas">
+                        <span>Arrocitas</span>
+                    </a>
+                    <p>Deliciosos snacks horneados de arroz, hechos de forma artesanal y 100% libres de gluten. Disfruta cuidándote.</p>
+                    <ul class="footer-socials">
+                        <li>
+                            <a href="https://web.facebook.com/arrocitasglutenfree?mibextid=ZbWKwL&_rdc=1&_rdr" 
+                               class="footer-social-link" 
+                               target="_blank" 
+                               rel="noopener noreferrer" 
+                               aria-label="Facebook">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/arrocitas.glutenfree/" 
+                               class="footer-social-link" 
+                               target="_blank" 
+                               rel="noopener noreferrer" 
+                               aria-label="Instagram">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                
+                <!-- Footer Column 2: Links -->
+                <div>
+                    <h3 class="footer-title">Navegación</h3>
+                    <ul class="footer-links">
+                        <li><a href="#inicio">Inicio</a></li>
+                        <li><a href="#productos">Nuestros Sabores</a></li>
+                        <li><a href="#sobre-mi">Nuestra Historia</a></li>
+                        <li><a href="#testimonios">Opiniones</a></li>
+                        <li><a href="#pedido">Armar Pedido</a></li>
+                    </ul>
+                </div>
+
+                <!-- Footer Column 3: Contact Info -->
+                <div>
+                    <h3 class="footer-title">Contacto</h3>
+                    <ul class="footer-contact-list">
+                        <li class="footer-contact-item">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <span>Manizales, Caldas<br>Colombia</span>
+                        </li>
+                        <li class="footer-contact-item">
+                            <i class="fa-solid fa-phone"></i>
+                            <a href="tel:+573218414224">+57 3218414224</a>
+                        </li>
+                        <li class="footer-contact-item">
+                            <i class="fa-solid fa-envelope" style="display:none;"></i> <!-- Fallback -->
+                            
+                            
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2026 Arrocitas. Todos los derechos reservados.</p>
+                <p>Diseño premium para snacks saludables</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Custom JS -->
+    <script src="js/main.js"></script>
+</body>
 </html>
